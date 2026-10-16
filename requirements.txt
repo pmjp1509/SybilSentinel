@@ -1,0 +1,7 @@
+torch>=2.0
+numpy
+matplotlib
+streamlit>=1.40      # web interface (app.py); installs pandas and altair too
+pandas
+# only needed for --dataset cifar:
+# torchvision
