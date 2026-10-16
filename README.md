@@ -1,4 +1,6 @@
-# Sybil Attacks on Federated Learning — attack, similarity-filter defense, comparison and web app (Group 15)
+<h1 align="center">SybilSentinel</h1>
+
+## Sybil Attacks on Federated Learning — attack, similarity-filter defense, comparison and web app
 
 Extension of [ITSEG-MQ/Sybil-Attacks-and-Defense-on-DP-FL](https://github.com/ITSEG-MQ/Sybil-Attacks-and-Defense-on-DP-FL)
 (FedAvg + Laplace "DP" noise on MNIST/CIFAR-10). It adds:
@@ -13,7 +15,7 @@ Extension of [ITSEG-MQ/Sybil-Attacks-and-Defense-on-DP-FL](https://github.com/IT
 ```bash
 # Python 3.9+ ; CPU is enough
 python -m venv venv
-source venv/bin/activate            # Windows: venv\Scripts\activate
+venv\Scripts\activate               # linux: source venv/bin/activate
 pip install -r requirements.txt     # torch, numpy, matplotlib, streamlit, pandas
 
 python tests/test_filter.py         # unit tests of the similarity filter
